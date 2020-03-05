@@ -1,0 +1,138 @@
+:root {
+    --main-bg-color: #151223;
+    --primary-color: #ffffff;
+    --secondary-color: #FFC721;
+}
+
+html,
+body {
+    min-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    background-color: var(--main-bg-color);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none
+}
+
+li {
+    list-style: none
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.nav {
+    height: 120px;
+    width: 470.5px;
+    transform-origin: top left;
+    position: absolute;
+    left: 0;
+    top: 470.5px;
+    transform: rotate(-90deg);
+    align-items: center;
+    vertical-align: middle;
+}
+
+.nav-item {
+    width: 120px;
+    height: 40px;
+}
+
+.nav-link {
+    padding: 0px;
+    margin: 0px;
+    color: #C4C4C4;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: #01D77E;
+}
+
+.bg-1 {
+    height: 942px;
+    margin-left: 120px;
+    margin-right: 48px;
+    background-image: linear-gradient(180deg, #2779B9 19.21%, rgba(166, 224, 251, 0) 93.23%), url('./image/banner_2_bg.jpg');
+    background-position: top left, top left;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+}
+
+.logos {
+    padding-top: 28px;
+}
+
+.bg-2 {
+    height: 942px;
+    margin-left: 185px;
+    margin-top: -760px;
+    background-image: url('./image/banner_2_car_2.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.info-section {
+    height: 457px;
+    color: #ffffff;
+    text-align: center;
+    background-image: url('./image/bg_1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: top left;
+}
+
+.info-section h3 {
+    font-family: 'Baskervville', serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 150%;
+}
+
+.info-section p {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.strength-section {
+    min-width: 85%;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.strength-section p {
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 100%;
+}
+
+.footer-section {}
